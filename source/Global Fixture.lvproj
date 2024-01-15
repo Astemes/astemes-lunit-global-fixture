@@ -11,10 +11,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Demo" Type="Folder">
+			<Item Name="Demo Test.lvclass" Type="LVClass" URL="../Demo Test/Demo Test.lvclass"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Global Fixture Test Double.lvclass" Type="LVClass" URL="../Global Fixture Test Double/Global Fixture Test Double.lvclass"/>
+			<Item Name="Global Fixture Test.lvclass" Type="LVClass" URL="../../tests/Global Fixture Test/Global Fixture Test.lvclass"/>
+		</Item>
 		<Item Name="Global Fixture Test Case.lvclass" Type="LVClass" URL="../Global Fixture Test Case/Global Fixture Test Case.lvclass"/>
-		<Item Name="Global Fixture Test Double.lvclass" Type="LVClass" URL="../Global Fixture Test Double/Global Fixture Test Double.lvclass"/>
-		<Item Name="Global Fixture Test.lvclass" Type="LVClass" URL="../../tests/Global Fixture Test/Global Fixture Test.lvclass"/>
-		<Item Name="Test Suite with Global Fixture.lvclass" Type="LVClass" URL="../Test Suite with Global Fixture/Test Suite with Global Fixture.lvclass"/>
+		<Item Name="Global Fixture Test Suite.lvclass" Type="LVClass" URL="../Test Suite with Global Fixture/Global Fixture Test Suite.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
