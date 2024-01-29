@@ -20,6 +20,7 @@ It is important that the fixture is not mutated by any of the case, or the tests
 # How?
 This repository contains a class called Global Fixture Test Case.lvclass, which inherits from the LUnit Test Case.lvclass.
 To make a test case with global fixture, set the inheritance of the test case to point to this new class.
+Once you have inherited from the Global Fixture Test Case.lvclass class, there are thwo new VI:s which you can override to add global setup and teardown functionality to your tests.
 
 Under the hood a new derived test suite class is used, called Global Fixture Test Suite.lvclass.
 This class will need to be managed as a dependency for using the global fixture feature.
