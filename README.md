@@ -2,6 +2,8 @@
 This repository contains a feature which may at some point get merged into LUnit, if there is enough interest.
 If you would like to see this feature in LUnit, please add star this repository to let us know.
 
+This project requires LUnit 1.4.9 or later to work.
+
 ## What?
 A fixture is the environment in which a unit test is executed.
 In LUnit, the ficture may be either explicitly setup in the test method or implicitly using the Setup.vi and Teardown.vi overrides.
