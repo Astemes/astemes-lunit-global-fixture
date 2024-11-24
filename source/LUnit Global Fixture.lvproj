@@ -12,16 +12,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Global Fixture Demo.lvclass" Type="LVClass" URL="../Demo Test/Global Fixture Demo.lvclass"/>
+			<Item Name="Global Fixture Demo Test Case.lvclass" Type="LVClass" URL="../../examples/Global Fixture Demo Test Case/Global Fixture Demo Test Case.lvclass"/>
+			<Item Name="Global Fixture Demo.lvproj" Type="Document" URL="../../examples/Global Fixture Demo.lvproj"/>
 		</Item>
 		<Item Name="Menu" Type="Folder">
-			<Item Name="New Global Fixture Test Case.vi" Type="VI" URL="../Menu/New Global Fixture Test Case.vi"/>
+			<Item Name="New Global Fixture Test Case.vi" Type="VI" URL="../../Menu/New Global Fixture Test Case.vi"/>
 		</Item>
 		<Item Name="Template" Type="Folder">
-			<Item Name="Global Fixture Template.lvclass" Type="LVClass" URL="../Templates/Global Fixture Template/Global Fixture Template.lvclass"/>
+			<Item Name="Global Fixture Template.lvclass" Type="LVClass" URL="../../Templates/Global Fixture Template/Global Fixture Template.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Global Fixture Test Double.lvclass" Type="LVClass" URL="../Global Fixture Test Double/Global Fixture Test Double.lvclass"/>
+			<Item Name="Global Fixture Test Double.lvclass" Type="LVClass" URL="../../tests/Global Fixture Test Double/Global Fixture Test Double.lvclass"/>
 			<Item Name="Global Fixture Test.lvclass" Type="LVClass" URL="../../tests/Global Fixture Test/Global Fixture Test.lvclass"/>
 		</Item>
 		<Item Name="Global Fixture Test Case.lvclass" Type="LVClass" URL="../Global Fixture Test Case/Global Fixture Test Case.lvclass"/>
@@ -87,7 +88,7 @@
 				<Property Name="Destination[5].path" Type="Path">../builds/NI_AB_PROJECTNAME/project/LUnit</Property>
 				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB146033-BABD-4F5E-BC70-3C38E8C4E66E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E747C0E4-E8FF-4E99-969F-F5B5BC7EF995}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
