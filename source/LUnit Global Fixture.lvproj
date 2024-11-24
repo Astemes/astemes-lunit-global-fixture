@@ -79,7 +79,7 @@
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/vi.lib/astemes/LUnit Global Fixture</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">template</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Astemes/LUnit/Templates/Gloabal Fixture Test Case</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/resource/Astemes/LUnit/Templates/Global Fixture Test Case</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[4].destName" Type="Str">examples</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/examples/astemes/LUnit Global Fixture</Property>
@@ -88,7 +88,7 @@
 				<Property Name="Destination[5].path" Type="Path">../builds/NI_AB_PROJECTNAME/project/LUnit</Property>
 				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E747C0E4-E8FF-4E99-969F-F5B5BC7EF995}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6AF43C25-5B8E-44B5-AEE1-38D05C066129}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
