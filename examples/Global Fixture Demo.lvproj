@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Global Fixture Demo.lvclass" Type="LVClass" URL="../../source/Demo Test/Global Fixture Demo.lvclass"/>
+		<Item Name="Global Fixture Demo Test Case.lvclass" Type="LVClass" URL="../Global Fixture Demo Test Case/Global Fixture Demo Test Case.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
